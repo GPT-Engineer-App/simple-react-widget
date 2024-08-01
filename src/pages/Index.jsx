@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Button } from "@/components/ui/button";
-import { Paw } from "lucide-react";
+import { Home } from "lucide-react";
 
 const Index = () => {
   const [count, setCount] = useState(0);
@@ -8,7 +8,7 @@ const Index = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
       <h1 className="text-4xl font-bold mb-4 flex items-center">
-        <Paw className="mr-2" />
+        <Home className="mr-2" />
         Simple Counter App
       </h1>
       <p className="text-2xl mb-4">Count: {count}</p>
